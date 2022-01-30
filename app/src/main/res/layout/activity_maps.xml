@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.roycho.latermaldadentro.MapsActivity">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button1"
+                style="@color/red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Hot"
+                android:onClick="hoteles"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@color/red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="casinos"
+                android:text="@string/Casi"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@color/red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Titulo9"
+                android:textColor="#FFFFFF"
+                android:onClick="resto" />
+
+            <Button
+                android:id="@+id/button4"
+                style="@color/red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Titulo20"
+                android:textColor="#FFFFFF"
+                android:onClick="cajero" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@color/red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bares"
+                android:textColor="#FFFFFF"
+                android:onClick="bar" />
+
+            <Button
+                android:id="@+id/button7"
+                style="@color/red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituboli"
+                android:textColor="#FFFFFF"
+                android:onClick="boli" />
+
+            <Button
+                android:id="@+id/button8"
+                style="@color/red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Hosp"
+                android:textColor="#FFFFFF"
+                android:onClick="hospi" />
+
+            <Button
+                android:id="@+id/button9"
+                style="@color/red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/estacion"
+                android:textColor="#FFFFFF"
+                android:onClick="servis" />
+
+            <Button
+                android:id="@+id/button11"
+                style="@color/red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Titulo14"
+                android:textColor="#FFFFFF"
+                android:onClick="remis" />
+
+            <Button
+                android:id="@+id/button10"
+                style="@color/red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Titulo12"
+                android:textColor="#FFFFFF"
+                android:onClick="visitar" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/horizontalScrollView1"
+        class="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <Button
+        android:id="@+id/button15"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/map"
+        android:layout_centerHorizontal="true"
+        android:onClick="mapa"
+        android:textColor="#fff"
+        android:text="@string/mapa"
+        android:textStyle="bold" />
+
+</RelativeLayout>

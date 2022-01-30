@@ -1,0 +1,1826 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.roycho.latermaldadentro.MenuPrincipal">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/CollapsingToolbar"
+            android:layout_height="180dp"
+            android:layout_width="match_parent"
+            app:layout_scrollFlags = "scroll|enterAlways|enterAlwaysCollapsed"
+            app:contentScrim="@color/colorPrimary"
+            app:expandedTitleTextAppearance="?android:attr/textAppearanceLarge"
+            app:expandedTitleMarginBottom="30dp"
+            app:expandedTitleMarginStart="4dp"
+            app:expandedTitleMarginEnd="150dp"
+            android:background="@drawable/cuatro"
+            app:title="@string/comida">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarid"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:layout_collapseMode="pin"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="end"
+                android:background="@drawable/comida"
+                android:layout_marginTop="40sp">
+
+            </ImageView>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/restora1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituresto1"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/fila1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/direccion1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion" />
+
+                <TextView
+                    android:id="@+id/direccion2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direresto1" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tele1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefono" />
+
+                <TextView
+                    android:id="@+id/tele2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:text="@string/teleresto1" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/como1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/como2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:paddingBottom="15dp"
+                    android:text="@string/ver"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00CCCC" />
+
+            </TableRow>
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#404991"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:id="@+id/restora20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituresto20"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/fila64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/direccion45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion" />
+
+                <TextView
+                    android:id="@+id/direccion46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direresto20" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tele39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefono" />
+
+                <TextView
+                    android:id="@+id/tele40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:text="@string/teleresto20" />
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/fila67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/como47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/como39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:paddingBottom="15dp"
+                    android:text="@string/ver"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00CCCC" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#404991"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:id="@+id/restora2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituresto2"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/fila4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/direccion3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion" />
+
+                <TextView
+                    android:id="@+id/direccion4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direresto2" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tele3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefono" />
+
+                <TextView
+                    android:id="@+id/tele4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:text="@string/teleresto2"
+                    android:textColor="#00CCCC" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/como3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/como4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:paddingBottom="15dp"
+                    android:text="@string/ver"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00CCCC" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#404991"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:id="@+id/restora3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituresto3"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/fila7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/direccion5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion" />
+
+                <TextView
+                    android:id="@+id/direccion6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direresto3" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tele5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefono" />
+
+                <TextView
+                    android:id="@+id/tele6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:text="@string/teleresto3" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/como5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/como6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:paddingBottom="15dp"
+                    android:text="@string/ver"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00CCCC" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#404991"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:id="@+id/restora4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituresto4"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/fila10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/direccion7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion" />
+
+                <TextView
+                    android:id="@+id/direccion8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direresto4" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tele7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefono" />
+
+                <TextView
+                    android:id="@+id/tele8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:text="@string/teleresto4" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/como7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/como8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:paddingBottom="15dp"
+                    android:text="@string/ver"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00CCCC" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#404991"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:id="@+id/restora5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituresto5"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/fila13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/direccion9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion" />
+
+                <TextView
+                    android:id="@+id/direccion10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direresto5" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tele9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefono" />
+
+                <TextView
+                    android:id="@+id/tele10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:text="@string/teleresto5" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/como9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/como10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:paddingBottom="15dp"
+                    android:text="@string/ver"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00CCCC" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#404991"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:id="@+id/restora6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituresto6"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/fila16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/direccion11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion" />
+
+                <TextView
+                    android:id="@+id/direccion12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direresto6" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tele11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefono" />
+
+                <TextView
+                    android:id="@+id/tele12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:text="@string/teleresto6" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/como11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/como12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:paddingBottom="15dp"
+                    android:text="@string/ver"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00CCCC" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#404991"
+                android:paddingBottom="15dp" />
+
+
+            <TextView
+                android:id="@+id/restora7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituresto7"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/fila19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/direccion13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion" />
+
+                <TextView
+                    android:id="@+id/direccion14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direresto7" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tele13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefono" />
+
+                <TextView
+                    android:id="@+id/tele14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:text="@string/teleresto7" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/como13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/como14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:paddingBottom="15dp"
+                    android:text="@string/ver"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00CCCC" />
+
+            </TableRow>
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#404991"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:id="@+id/restora9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituresto9"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/fila25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/direccion17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion" />
+
+                <TextView
+                    android:id="@+id/direccion18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direresto9" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tele17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefono" />
+
+                <TextView
+                    android:id="@+id/tele18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:text="@string/teleresto9" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/como17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/como18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:paddingBottom="15dp"
+                    android:text="@string/ver"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00CCCC" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#404991"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:id="@+id/restora10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituresto10"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/fila28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/direccion19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion" />
+
+                <TextView
+                    android:id="@+id/direccion20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direresto10" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tele19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefono" />
+
+                <TextView
+                    android:id="@+id/tele20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:text="@string/teleresto10" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/como19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/como20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:paddingBottom="15dp"
+                    android:text="@string/ver"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00CCCC" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#404991"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:id="@+id/restora11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituresto11"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/fila31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/direccion21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion" />
+
+                <TextView
+                    android:id="@+id/direccion22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direresto11" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tele21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefono" />
+
+                <TextView
+                    android:id="@+id/tele22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:text="@string/teleresto11" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/como21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/como22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:paddingBottom="15dp"
+                    android:text="@string/ver"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00CCCC" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#404991"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:id="@+id/restora12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituresto12"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/fila34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/direccion23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion" />
+
+                <TextView
+                    android:id="@+id/direccion24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direresto12" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tele23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefono" />
+
+                <TextView
+                    android:id="@+id/tele24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:text="@string/teleresto12" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/como23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/como24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:paddingBottom="15dp"
+                    android:text="@string/ver"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00CCCC" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#404991"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:id="@+id/restora13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituresto13"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/fila37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/direccion25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion" />
+
+                <TextView
+                    android:id="@+id/direccion26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direresto13" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tele25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefono" />
+
+                <TextView
+                    android:id="@+id/tele26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:text="@string/teleresto13" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/como25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/como26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:paddingBottom="15dp"
+                    android:text="@string/ver"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00CCCC" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#404991"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:id="@+id/restora14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituresto14"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/fila40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/direccion27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion" />
+
+                <TextView
+                    android:id="@+id/direccion28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direresto14" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tele27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefono" />
+
+                <TextView
+                    android:id="@+id/tele28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:text="@string/teleresto14" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/como27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/como28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:paddingBottom="15dp"
+                    android:text="@string/ver"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00CCCC" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#404991"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:id="@+id/restora15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituresto15"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/fila43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/direccion29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion" />
+
+                <TextView
+                    android:id="@+id/direccion30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direresto15" />
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/fila44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/como29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/como30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:paddingBottom="15dp"
+                    android:text="@string/ver"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00CCCC" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#404991"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:id="@+id/restora16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituresto16"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/fila45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/direccion31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion" />
+
+                <TextView
+                    android:id="@+id/direccion32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direresto16" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tele29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefono" />
+
+                <TextView
+                    android:id="@+id/tele30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:text="@string/teleresto16" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/como31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/como32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:paddingBottom="15dp"
+                    android:text="@string/ver"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00CCCC" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#404991"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:id="@+id/restora17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituresto17"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/fila48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/direccion33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion" />
+
+                <TextView
+                    android:id="@+id/direccion34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direresto17" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tele31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefono" />
+
+                <TextView
+                    android:id="@+id/tele32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:text="@string/teleresto17" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/como33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/como34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:paddingBottom="15dp"
+                    android:text="@string/ver"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00CCCC" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#404991"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:id="@+id/restora18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituresto18"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/fila51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/direccion35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion" />
+
+                <TextView
+                    android:id="@+id/direccion36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direresto18" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tele33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefono" />
+
+                <TextView
+                    android:id="@+id/tele34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:text="@string/teleresto18" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/como35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/como36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:paddingBottom="15dp"
+                    android:text="@string/ver"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00CCCC" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#404991"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:id="@+id/restora19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituresto19"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/fila54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/direccion37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion" />
+
+                <TextView
+                    android:id="@+id/direccion38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direresto19" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/como37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/como38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:paddingBottom="15dp"
+                    android:text="@string/ver"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00CCCC" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#404991"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:id="@+id/restora21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituresto21"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/fila59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/direccion41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion" />
+
+                <TextView
+                    android:id="@+id/direccion42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direresto21" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tele37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefono" />
+
+                <TextView
+                    android:id="@+id/tele38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:text="@string/teleresto21" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/como41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/como42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:paddingBottom="15dp"
+                    android:text="@string/ver"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00CCCC" />
+
+            </TableRow>
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#404991"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:id="@+id/restora25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituresto24"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/fila72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/direccion51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion" />
+
+                <TextView
+                    android:id="@+id/direccion52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direresto24" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/como50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/como51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:paddingBottom="15dp"
+                    android:text="@string/ver"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00CCCC" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#404991"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:id="@+id/restora26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituresto25"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/fila76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/direccion53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion" />
+
+                <TextView
+                    android:id="@+id/direccion54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direresto25" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tele45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefono" />
+
+                <TextView
+                    android:id="@+id/tele46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:text="@string/teleresto23" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/como52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/como53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:paddingBottom="15dp"
+                    android:text="@string/ver"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00CCCC" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#404991"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:id="@+id/restora27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituresto26"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/fila79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/direccion55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion" />
+
+                <TextView
+                    android:id="@+id/direccion56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direresto26" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tele47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefono" />
+
+                <TextView
+                    android:id="@+id/tele48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:text="@string/teleresto24" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/como54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/como55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:paddingBottom="15dp"
+                    android:text="@string/ver"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00CCCC" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#404991"
+                android:paddingBottom="15dp" />
+
+            <TextView
+                android:id="@+id/restora28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituresto27"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:id="@+id/fila82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/direccion57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direccion" />
+
+                <TextView
+                    android:id="@+id/direccion58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direresto27" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tele49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefono" />
+
+                <TextView
+                    android:id="@+id/tele50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:text="@string/teleresto25" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/como56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/como57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:paddingBottom="15dp"
+                    android:text="@string/ver"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00CCCC" />
+
+            </TableRow>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">La Termal Desde Adentro</string>
+    <string name="Descripcion15"></string>
+    <string name="Enviar">Send</string>
+    <string name="Fuente2">Source</string>
+    <string name="Asunto">Subject</string>
+    <string name="Atras">Before</string>
+    <string name="Casi">Casino</string>
+    <string name="Destinatario">For</string>
+    <string name="Face">Facebook:</string>
+    <string name="Fuente">Source:</string>
+    <string name="Habita">Room</string>
+    <string name="Hot">Hotels</string>
+    <string name="Humedad">Humidity:</string>
+    <string name="Mensaje">Message</string>
+    <string name="Servis">Services</string>
+    <string name="Siguiente">After</string>
+    <string name="Temperatura">Temperature:</string>
+    <string name="Hosp">Hospital and Clinics</string>
+    <string name="Titulo12">Places to visit</string>
+    <string name="Titulo13">Car Rental</string>
+    <string name="Titulo14">Taxi</string>
+    <string name="Titulo16">Post Office</string>
+    <string name="Titulo17">Hospital and Clinics</string>
+    <string name="Titulo19">Pharmacies</string>
+    <string name="Titulo2">Weather</string>
+    <string name="Titulo20">ATMs</string>
+    <string name="Titulo21">Travel Agency</string>
+    <string name="Titulo22">Maps</string>
+    <string name="Titulo3">About the city</string>
+    <string name="Titulo4">Contact</string>
+    <string name="Titulo5">About</string>
+    <string name="Titulo6">Photos</string>
+    <string name="Titulo7">Hotels</string>
+    <string name="Titulo8">Casino</string>
+    <string name="Titulo9">Restaurantes</string>
+    <string name="Ultimosdatos">Latest Data:\t</string>
+    <string name="asunto">Subject</string>
+    <string name="botondialogo">Close</string>
+    <string name="botondialogo1">Close</string>
+    <string name="cargarnoticias">Upload News</string>
+    <string name="cargarwebspnoticias">Upload Web</string>
+    <string name="comida">Restaurantes</string>
+    <string name="como">How to Get:</string>
+    <string name="contacto">Contact:</string>
+    <string name="des1">Review</string>
+    <string name="des2">Emergency Numbers</string>
+    <string name="des4">How to Get</string>
+    <string name="des5">Useful Data</string>
+    <string name="des6">What to see</string>
+    <string name="descrip1">La Termal Desde Adentro is an application for devices with Android system. \nIt provides information about everything that tourists should know when visiting the city of Pcia. Roque Sáenz Peña Chaco Argentina. \nApplication created by \nRoy Alexis Genoff. \nVersion 1.6. \nIcons of findicons.com \nMap Icons of mapicons.nicolasmollet.com</string>
+    <string name="descrip11">Without an internet connection, verify your connection and try again</string>
+    <string name="descrip2">There is no information on the weather at this time, try later</string>
+    <string name="descrip3">Currency: Argentine Pesos \n\nLanguage: Spanish Time Zone: GMT-3 \n\nWeights and Measures: International System of Units \n\nClimate: The average annual temperature is 21.5ºC and the average annual relative humidity is 74%. They usually register in winter minimum temperatures of below -5 ° C, and maximum in summer that exceed 44 ° C \n\nThe bus terminal is located at \n<a href="https://goo.gl/maps/pwK4s">See Map</a> \n\nFor tourist reports call the following numbers: \n<a href="tel:+549-(364)-4431550">Phone 1</a> \n<a href="tel:+549-(364)-4430030">Phone 2</a> \n\nFor more information about the city visit: \n<a href="http://www.municipiosp.com.ar/">MunicipalitySP</a></string>
+    <string name="descrip4">City Airport.\n<a href="https://goo.gl/maps/zI55M">See Map</a>\n\n\nHistorical Building of the Telegraph Radio.\n<a href="https://goo.gl/maps/VJY3H">See Map</a>\n\nStadium Arena Uncaus.\n<a href="https://goo.gl/maps/Ir3ks">See Map</a>\n\nMural of the City.\n<a href="https://goo.gl/maps/Ri9L7">See Map</a>\n\nTrain Station.\n<a href="https://goo.gl/maps/Zpi9y">See Map</a>\n</string>
+    <string name="descripcionsobreciu1">\"Presidencia Roque Sáenz Peña or simply Saenz Peña is the second most populated city in the province of Chaco, Argentina, is the head of the department Comandante Fernández, in the province it is usually called La Termal, because of the thermal waters that constitute one of its main tourist attractions In the year 2010 had 89 882 inhabitants.The geographical coordinates are 26º 47 \'27 S, 60º 26 29\' W, at an altitude of 90.00 meters above sea level and 168 kilometers from the provincial capital , Resistencia.\"</string>
+    <string name="descripcionsobreciu2">\"Sáenz Peña is crossed by national routes 16 and 95, both paved, becoming a center for its proximity to most of the Chaco populations, Route 16 being the most important, communicating it to the southeast with Quitilipi and Resistencia. The northwest links it with Aviá Teraí and the Province of Salta, Route 95 links it to the north with Tres Isletas and the Province of Formosa, and to the south with Villa Ángela and the Province of Santa Fe.\"</string>
+    <string name="Condicion">Condition:</string>
+    <string name="ver"><u>See Map</u></string>
+    <string name="siguenos">Follow us on Facebook</string>
+</resources>

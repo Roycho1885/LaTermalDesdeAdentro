@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+      <ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="150dp">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+      
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/iconogo" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:clickable="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:paddingBottom="50dp"
+            android:text="@string/descrip1"
+            android:textSize="14sp"/>
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/siguenos"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageView
+        android:id="@+id/fotoface"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logoface"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:onClick="click"/>
+  </LinearLayout>
+ </ScrollView>
+
+</LinearLayout>

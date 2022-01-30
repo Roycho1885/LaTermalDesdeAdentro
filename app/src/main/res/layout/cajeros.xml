@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.roycho.latermaldadentro.MenuPrincipal">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/CollapsingToolbar"
+            android:layout_height="180dp"
+            android:layout_width="match_parent"
+            app:layout_scrollFlags = "scroll|enterAlways|enterAlwaysCollapsed"
+            app:contentScrim="@color/colorPrimary"
+            app:expandedTitleTextAppearance="?android:attr/textAppearanceLarge"
+            app:expandedTitleMarginBottom="30dp"
+            app:expandedTitleMarginStart="4dp"
+            app:expandedTitleMarginEnd="150dp"
+            android:background="@drawable/cuatro"
+            app:title="@string/titucajero">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarid"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:layout_collapseMode="pin"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="end"
+                android:background="@drawable/cajero"
+                android:layout_marginTop="40sp">
+
+            </ImageView>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/caje1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cajero1"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TableRow
+        android:id="@+id/fila1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/direccion1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direccion" />
+        
+         <TextView
+            android:id="@+id/direccion2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direcaje1" />
+         </TableRow>
+         
+        <TableRow
+        android:id="@+id/fila2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+         </TableRow>
+
+        <TableRow
+        android:id="@+id/fila3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/como1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:paddingBottom="15dp"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+
+    </TableRow>
+    
+         <View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#404991"
+			android:paddingBottom="15dp"/>
+         
+         <TextView
+            android:id="@+id/caje2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cajero2"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TableRow
+        android:id="@+id/fila4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/direccion5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direccion" />
+        
+         <TextView
+            android:id="@+id/direccion6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direcaje2" />
+         </TableRow>
+         
+        <TableRow
+        android:id="@+id/fila5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+         </TableRow>
+
+        <TableRow
+        android:id="@+id/fila6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/como3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:paddingBottom="15dp"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+
+    </TableRow>
+         
+          <View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#404991"
+			android:paddingBottom="15dp"/>
+         
+         <TextView
+            android:id="@+id/caje3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cajero3"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TableRow
+        android:id="@+id/fila7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/direccion7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direccion" />
+        
+         <TextView
+            android:id="@+id/direccion8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direcaje3" />
+         </TableRow>
+         
+        <TableRow
+        android:id="@+id/fila8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+         </TableRow>
+
+        <TableRow
+        android:id="@+id/fila9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/como5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:paddingBottom="15dp"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+
+    </TableRow>
+    
+    <View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#404991"
+			android:paddingBottom="15dp"/>
+         
+         <TextView
+            android:id="@+id/caje4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cajero4"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TableRow
+        android:id="@+id/fila10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/direccion9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direccion" />
+        
+         <TextView
+            android:id="@+id/direccion10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direcaje4" />
+         </TableRow>
+         
+        <TableRow
+        android:id="@+id/fila11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+         </TableRow>
+
+        <TableRow
+        android:id="@+id/fila12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/como7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:paddingBottom="15dp"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+
+    </TableRow>
+    
+        <View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#404991"
+			android:paddingBottom="15dp"/>
+         
+         <TextView
+            android:id="@+id/caje5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cajero5"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TableRow
+        android:id="@+id/fila13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/direccion11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direccion" />
+        
+         <TextView
+            android:id="@+id/direccion12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direcaje5" />
+         </TableRow>
+         
+        <TableRow
+        android:id="@+id/fila14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+         </TableRow>
+
+        <TableRow
+        android:id="@+id/fila15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/como9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:paddingBottom="15dp"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+
+    </TableRow>
+    
+         <View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#404991"
+			android:paddingBottom="15dp"/>
+         
+         <TextView
+            android:id="@+id/caje6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cajero6"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TableRow
+        android:id="@+id/fila16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/direccion13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direccion" />
+        
+         <TextView
+            android:id="@+id/direccion14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direcaje6" />
+         </TableRow>
+         
+        <TableRow
+        android:id="@+id/fila17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+         </TableRow>
+
+        <TableRow
+        android:id="@+id/fila18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/como11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:paddingBottom="15dp"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+
+    </TableRow>
+    
+         <View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#404991"
+			android:paddingBottom="15dp"/>
+         
+         <TextView
+            android:id="@+id/caje7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cajero7"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TableRow
+        android:id="@+id/fila19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/direccion15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direccion" />
+        
+         <TextView
+            android:id="@+id/direccion16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direcaje7" />
+         </TableRow>
+         
+        <TableRow
+        android:id="@+id/fila20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+         </TableRow>
+
+        <TableRow
+        android:id="@+id/fila21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/como13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:paddingBottom="15dp"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+
+    </TableRow>
+    
+         <View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#404991"
+			android:paddingBottom="15dp"/>
+         
+         <TextView
+            android:id="@+id/caje8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cajero8"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TableRow
+        android:id="@+id/fila22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/direccion17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direccion" />
+        
+         <TextView
+            android:id="@+id/direccion18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direcaje8" />
+         </TableRow>
+         
+        <TableRow
+        android:id="@+id/fila23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+         </TableRow>
+
+        <TableRow
+        android:id="@+id/fila24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/como15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:paddingBottom="15dp"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+
+    </TableRow>
+    
+        <View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#404991"
+			android:paddingBottom="15dp"/>
+         
+         <TextView
+            android:id="@+id/caje9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cajero9"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        
+        <TableRow
+        android:id="@+id/fila25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/direccion19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direccion" />
+        
+         <TextView
+            android:id="@+id/direccion20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direcaje9" />
+         </TableRow>
+         
+        <TableRow
+        android:id="@+id/fila26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+         </TableRow>
+
+        <TableRow
+        android:id="@+id/fila27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/como17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:paddingBottom="15dp"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+
+    </TableRow>
+    
+        <View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#404991"
+			android:paddingBottom="15dp"/>
+         
+         <TextView
+            android:id="@+id/caje10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cajero10"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TableRow
+        android:id="@+id/fila28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/direccion21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direccion" />
+        
+         <TextView
+            android:id="@+id/direccion22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direcaje10" />
+         </TableRow>
+         
+        <TableRow
+        android:id="@+id/fila29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+         </TableRow>
+
+        <TableRow
+        android:id="@+id/fila30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/como19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:paddingBottom="15dp"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+
+    </TableRow>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#404991"
+            android:paddingBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/caje11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cajero11"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TableRow
+            android:id="@+id/fila31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/direccion23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/direccion" />
+
+            <TextView
+                android:id="@+id/direccion24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/direcaje11" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fila32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fila33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/como21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/como"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/como22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ver"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#00CCCC"
+                android:paddingBottom="15dp"
+                android:linksClickable="true"
+                android:autoLink="all"/>
+
+        </TableRow>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#404991"
+            android:paddingBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/caje12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cajero12"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TableRow
+            android:id="@+id/fila34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/direccion25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/direccion" />
+
+            <TextView
+                android:id="@+id/direccion26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/direcaje12" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fila35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fila36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/como23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/como"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/como24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ver"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#00CCCC"
+                android:paddingBottom="15dp"
+                android:linksClickable="true"
+                android:autoLink="all"/>
+        </TableRow>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#404991"
+            android:paddingBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/caje13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cajero13"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TableRow
+            android:id="@+id/fila37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/direccion27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/direccion" />
+
+            <TextView
+                android:id="@+id/direccion28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/direcaje13" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fila38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fila39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/como25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/como"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/como26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ver"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#00CCCC"
+                android:paddingBottom="15dp"
+                android:linksClickable="true"
+                android:autoLink="all"/>
+
+
+        </TableRow>
+
+     </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

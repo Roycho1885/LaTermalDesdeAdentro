@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.roycho.latermaldadentro.MenuPrincipal">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/CollapsingToolbar"
+            android:layout_height="180dp"
+            android:layout_width="match_parent"
+            app:layout_scrollFlags = "scroll|enterAlways|enterAlwaysCollapsed"
+            app:contentScrim="@color/colorPrimary"
+            app:expandedTitleTextAppearance="?android:attr/textAppearanceLarge"
+            app:expandedTitleMarginBottom="30dp"
+            app:expandedTitleMarginStart="4dp"
+            app:expandedTitleMarginEnd="150dp"
+            android:background="@drawable/cuatro"
+            app:title="@string/tituloboliches">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarid"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:layout_collapseMode="pin"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="end"
+                android:background="@drawable/boliche"
+                android:layout_marginTop="40sp">
+
+            </ImageView>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/tituboli"
+            android:textStyle="bold"
+            android:textColor="#404991"
+            android:paddingBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/boli1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boli1"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        
+
+        <TableRow
+        android:id="@+id/fila4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/como1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:paddingBottom="15dp"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+
+    </TableRow>
+    
+         <View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#404991"
+			android:paddingBottom="15dp"/>
+         
+         <TextView
+            android:id="@+id/boli2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boli2"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        
+
+        <TableRow
+        android:id="@+id/fila5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/como3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:paddingBottom="15dp"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+
+    </TableRow>
+
+    
+        <View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#404991"
+			android:paddingBottom="15dp"/>
+         
+         <TextView
+            android:id="@+id/boli4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boli4"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+         
+          <TableRow
+        android:id="@+id/fila8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+         <TextView
+            android:id="@+id/face2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Face"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+         
+         <TextView
+            android:id="@+id/face3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/facebook2"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+         
+         
+        </TableRow>
+
+        <TableRow
+        android:id="@+id/fila9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/como7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:paddingBottom="15dp"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+
+    </TableRow>
+    
+        <View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#404991"
+			android:paddingBottom="15dp"/>
+         
+         <TextView
+            android:id="@+id/boli5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boli5"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+         
+          <TableRow
+        android:id="@+id/fila10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+         <TextView
+            android:id="@+id/face4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Face"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+         
+         <TextView
+            android:id="@+id/face5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/facebook3"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+         
+         
+        </TableRow>
+
+        <TableRow
+        android:id="@+id/fila11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/como9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:paddingBottom="15dp"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+
+    </TableRow>
+    
+        <View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#404991"
+			android:paddingBottom="20dp"/>
+        
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/titupub"
+            android:textStyle="bold"
+            android:textColor="#404991"
+            android:paddingBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+         <TextView
+            android:id="@+id/pub1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pub1"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        
+
+        <TableRow
+        android:id="@+id/fila15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/como15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:paddingBottom="15dp"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+
+    </TableRow>
+    
+        <View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#404991"
+			android:paddingBottom="15dp"/>
+         
+         <TextView
+            android:id="@+id/pub3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pub3"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <TableRow
+        android:id="@+id/fila18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/como19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:paddingBottom="15dp"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+
+    </TableRow>
+
+              <View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#404991"
+			android:paddingBottom="15dp"/>
+         
+         <TextView
+            android:id="@+id/pub5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pub5"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+         
+          <TableRow
+        android:id="@+id/fila21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+         <TextView
+            android:id="@+id/face12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Face"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+         
+         <TextView
+            android:id="@+id/face13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/facebook7"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+        </TableRow>
+
+        <TableRow
+        android:id="@+id/fila22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/como23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:paddingBottom="15dp"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+
+    </TableRow>
+    
+       
+           <View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#404991"
+			android:paddingBottom="15dp"/>
+         
+         <TextView
+            android:id="@+id/pub7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pub7"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+         
+        <TableRow
+        android:id="@+id/fila25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/como27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:paddingBottom="15dp"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+
+        </TableRow>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#404991"
+            android:paddingBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/pub8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pub8"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <TableRow
+            android:id="@+id/fila26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/como29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/como"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/como30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ver"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#00CCCC"
+                android:paddingBottom="15dp"
+                android:linksClickable="true"
+                android:autoLink="all"/>
+
+    </TableRow>
+         
+     </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

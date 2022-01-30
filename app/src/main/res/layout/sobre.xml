@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/pasarela2">
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-8540442919500654/2276447155">
+
+    </com.google.android.gms.ads.AdView>
+
+    
+    <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="50dp"
+                android:orientation="vertical" >
+
+
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/des1"
+                    android:textColor="#003399"
+                    android:textStyle="bold"
+                    android:onClick="lanzar"
+                    android:layout_margin="30dp"
+                    android:background="@drawable/botones" />
+                
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/des4"
+                    android:textColor="#003399"
+                    android:textStyle="bold"
+                    android:onClick="lanzar1"
+                    android:layout_margin="30dp"
+                    android:background="@drawable/botones" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/des2"
+                    android:textColor="#003399"
+                    android:textStyle="bold"
+                    android:onClick="lanzar2"
+                    android:layout_margin="30dp"
+                    android:background="@drawable/botones" />
+                
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/des5"
+                    android:textColor="#003399"
+                    android:textStyle="bold"
+                    android:onClick="lanzar3"
+                    android:layout_margin="30dp"
+                    android:background="@drawable/botones" />
+                
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/des6"
+                    android:textColor="#003399"
+                    android:textStyle="bold"
+                    android:onClick="lanzar4"
+                    android:layout_margin="30dp"
+                    android:background="@drawable/botones" />
+
+          
+            </LinearLayout>
+
+        </ScrollView>
+
+</LinearLayout>

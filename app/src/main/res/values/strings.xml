@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook">Facebook</string>
+    <string name="spnoti">Diario PrimeroChaco</string>
+    <string name="primeralinea">Diario Primera Linea</string>
+    <string name="norte">Diario Data Chaco</string>
+    <string name="diariolaregionn">El Diario de la Región</string>
+    <string name="mapa">Limpiar Mapa</string>
+    <string name="mural">Mural de la ciudad</string>
+    <string name="plaza">Plaza Ensanche Sur</string>
+    <string name="catedral">Catedral de la ciudad</string>
+    <string name="zoo">Zoológico de la ciudad</string>
+    <string name="termal">Complejo Termal de la ciudad</string>
+    <string name="fiesta">Fiesta Nacional del Algodón</string>
+    <string name="aero">Aeropuerto de la ciudad</string>
+    <string name="band">Bandera de la ciudad</string>
+    <string name="pasarela1">Pasarela (Estación de Tren)</string>
+    <string name="pasarela2">Estación de Tren (Vista desde Pasarela)</string>
+    <string name="pasarela3">Estación de Tren (Vista Frente)</string>
+    <string name="descripcionsobreciu1">"Presidencia Roque Sáenz Peña o simplemente Sáenz Peña es la segunda ciudad más poblada de la provincia del Chaco, Argentina. Es la cabecera del departamento Comandante Fernández. En la provincia suele llamarse como La Termal, por las aguas termales que constituyen uno de sus principales atractivos turísticos. En el año 2010 contaba con 89 882 habitantes. Sus coordenadas geográficas son 26º 47' 27 S, 60º 26 29' O, a una altitud de 90,00 metros sobre el nivel del mar y a 168 kilómetros de la capital de provincia, Resistencia."</string>
+    <string name="descripcionsobreciu2">"Sáenz Peña se encuentra atravesada por las rutas nacionales 16 y 95, ambas pavimentadas, convirtiéndose en un centro estatrégico por su cercanía a gran parte de las poblaciones chaqueñas. La ruta 16 es la más importante, comunicándola al sudeste con Quitilipi y Resistencia. Al noroeste la enlaza con Aviá Teraí y la Provincia de Salta. La ruta 95 la vincula al norte con Tres Isletas y la Provincia de Formosa, y al sur con Villa Ángela y la Provincia de Santa Fe."</string>
+    <string name="tituboli">Locales Bailables</string>
+    <string name="titupub">Bares y Pubs</string>
+    <string name="boli1">Complejo Fausto</string>
+    <string name="boli2">Password Disco</string>
+    <string name="boli4">Complejo Zoha NightLife</string>
+    <string name="facebook2">Zoha NightLife</string>
+    <string name="boli5">X-Treme Disco</string>
+    <string name="facebook3">X-Treme Disco</string>
+
+    <string name="pub1">Fausto Resto Bar</string>
+    <string name="pub3">Manolo Bar</string>
+    <string name="pub5">ManoSanta Bar</string>
+    <string name="facebook7">ManoSanta Bar</string>
+    <string name="pub7">Chino Bar</string>
+    <string name="pub8">Mü Bar</string>
+
+    <string name="share"></string>
+    <string name="estacion">Estaciones de Servicio</string>
+    <string name="desestacion">Información de estaciones de servicio en la ciudad</string>
+    <string name="tituservis1">Axion Energy</string>
+    <string name="direservis1">Belgrano 802</string>
+    <string name="tituservis2">Esso Cooperativa Agrop.</string>
+    <string name="direservis2">Sargento Cabral 2</string>
+    <string name="tituservis3">Shell Mecanagro Chaco SACIF</string>
+    <string name="direservis3">Moreno 399</string>
+    <string name="tituservis4">Shell Petrolera Sáenz Peña SC</string>
+    <string name="direservis4">Ruta 16 y calle 116</string>
+    <string name="tituservis5">YPF Sáenz Peña Combustibles SA</string>
+    <string name="direservis5">Belgrano y Chacabuco</string>
+    <string name="tituservis6">YPF Automóvil Club Argentino</string>
+    <string name="direservis6">Rivadavia y 25 de Mayo</string>
+    <string name="tituservis7">YPF Sáenz Peña Center SA</string>
+    <string name="direservis7">Comandante Fernández y Ucrania</string>
+    <string name="tituservis8">YPF El Cruce SRL</string>
+    <string name="direservis8">Ruta 16 y Ruta 95</string>
+    <string name="tituservis9">Petrogar SRL</string>
+    <string name="direservis9">John F. Kennedy S/N</string>
+    <string name="tituservis10">Petrobras Fibras SRL</string>
+    <string name="direservis10">Ruta 16 km 175,2</string>
+
+    <string name="tituagen1">Turismo Mania</string>
+    <string name="direagen1">Laprida 530</string>
+    <string name="teleagen1">+549-(364)-4427112</string>
+    <string name="agencontacto1">ventas1_turismomania@hotmail.com</string>
+    <string name="tituagen2">Soleado Turismo</string>
+    <string name="direagen2">Mariano Moreno 350</string>
+    <string name="teleagen2">+549-(364)-4420938</string>
+    <string name="agencontacto2">soleado@arnetbiz.com.ar\nventassoleado@arnetbiz.com.ar\nhttps://es-la.facebook.com/soleado.turismo</string>
+    <string name="tituagen3">Talento Empresa de Viajes y Turismo</string>
+    <string name="direagen3">Chacabuco 521</string>
+    <string name="teleagen3">+549-(364)-4430270 / +549-(364)-4436775</string>
+    <string name="agencontacto3">talentoevt@hotmail.com.ar\nwww.talentoevt.com\nhttps://www.facebook.com/talento.evt</string>
+    <string name="tituagen4">Tobas Tour</string>
+    <string name="direagen4">Superiora Palmira 565</string>
+    <string name="teleagen4">+549-(364)-4423105</string>
+    <string name="agencontacto4">tobastour@hotmail.com\nhttp://www.tobastour.com.ar\nhttps://es-es.facebook.com/tobastourevt</string>
+    <string name="tituagen5">Gal-Tur</string>
+    <string name="direagen5">25 de Mayo 414</string>
+    <string name="teleagen5">+549-(364)-4422100</string>
+    <string name="agencontacto5">galtur@arnet.com.ar</string>
+    <string name="tituagen6">Turysol</string>
+    <string name="direagen6">Belgrano 666</string>
+    <string name="teleagen6">+549-(364)-4433430</string>
+    <string name="agencontacto6">https://www.facebook.com/turysolviajes</string>
+    <string name="tituagen7">Roldan Viajes</string>
+    <string name="direagen7">Mitre 363</string>
+    <string name="teleagen7">+549-(364)-4420370</string>
+    <string name="agencontacto7">roldanviajes@gmail.com</string>
+    <string name="tituagen8">Gabriela Pistek Empresa de Viajes y Turismo</string>
+    <string name="direagen8">Mariano Moreno 827</string>
+    <string name="teleagen8">+549-(364)-4436761</string>
+    <string name="agencontacto8">gabrielapistekevt@gmail.com</string>
+    <string name="tituagen9">Walus Viajes</string>
+    <string name="direagen9">Mariano Moreno 1049</string>
+    <string name="teleagen9">+549-(364)-4424278</string>
+
+    <string name="tituresto1">El Patio</string>
+    <string name="direresto1">Belgrano 909</string>
+    <string name="teleresto1">+549-(364)-4431777</string>
+    <string name="tituresto2">Sarava</string>
+    <string name="direresto2">San Martin 496</string>
+    <string name="teleresto2">+549-(364)-44244969</string>
+    <string name="tituresto3">Restaurante Hotel Atrium Gualok</string>
+    <string name="direresto3">San Martin 1198</string>
+    <string name="teleresto3">+549-(364)-4420500</string>
+    <string name="tituresto4">Raíces Parrilla-Comedor</string>
+    <string name="direresto4">Blas Parera 560</string>
+    <string name="teleresto4">+549-(364)-4424168</string>
+    <string name="tituresto5">Pizzería Palmita</string>
+    <string name="direresto5">López y Planes 500</string>
+    <string name="teleresto5">+549-(364)-4373779</string>
+    <string name="tituresto6">Bien José</string>
+    <string name="direresto6">25 de Mayo 530</string>
+    <string name="teleresto6">+549-(364)-4431725</string>
+    <string name="tituresto7">Pido Pizza</string>
+    <string name="direresto7">Mariano Moreno 1100</string>
+    <string name="teleresto7">+549-(364)-4464488</string>
+    <string name="tituresto8">Mega Bar</string>
+    <string name="direresto8">Azcuénaga (Sobre Paso a Nivel)</string>
+    <string name="teleresto8">+549-(364)-4420102</string>
+    <string name="tituresto9">Pamper´s King</string>
+    <string name="direresto9">Belgrano 440</string>
+    <string name="teleresto9">+549-(364)-4421992</string>
+    <string name="tituresto10">Parrilla El Chucaro</string>
+    <string name="direresto10">John F. Kennedy 3</string>
+    <string name="teleresto10">+549-(364)-4578175</string>
+    <string name="tituresto11">El Patio del Cantor</string>
+    <string name="direresto11">Cte. Fernández 60</string>
+    <string name="teleresto11">+549-(364)-4407678</string>
+    <string name="tituresto12">Pizzeria y Resto Giuseppe</string>
+    <string name="direresto12">Mariano Moreno 130</string>
+    <string name="teleresto12">+549-(364)-4425467</string>
+    <string name="tituresto13">La Esquina Chopería y Pizzería</string>
+    <string name="direresto13">Mariano Moreno 1091</string>
+    <string name="teleresto13">+549-(364)-4588129</string>
+    <string name="tituresto14">Carmen</string>
+    <string name="direresto14">Pueyrredón 365</string>
+    <string name="teleresto14">+549-(364)-4631989 / +549-(364)-4436747</string>
+    <string name="tituresto15">Parrilla y Comedor El Decano</string>
+    <string name="direresto15">Blas Parera 499</string>
+    <string name="tituresto16">Parrilla y Comedor Shaday</string>
+    <string name="direresto16">Almirante Brown 499</string>
+    <string name="teleresto16">+549-(364)-4431548</string>
+    <string name="tituresto17">Grill-Pizzería-Sandwichería La Casona</string>
+    <string name="direresto17">Belgrano 1399</string>
+    <string name="teleresto17">+549-(364)-4432000</string>
+    <string name="tituresto18">Pizzería y Sandwichería Cacho</string>
+    <string name="direresto18">Laprida 521</string>
+    <string name="teleresto18">+549-(364)-4387096</string>
+    <string name="tituresto19">Fausto Resto Bar</string>
+    <string name="direresto19">Mitre 558</string>
+    <string name="tituresto20">Roque House</string>
+    <string name="direresto20">Mitre 760</string>
+    <string name="teleresto20">+549-(364)-4431765</string>
+    <string name="tituresto21">Pizzeria La Rocola</string>
+    <string name="direresto21">Mariano Moreno 202</string>
+    <string name="teleresto21">+549-(3735)-621595</string>
+    <string name="tituresto23">1985 Tap Room</string>
+    <string name="direresto23">Av. Hipólito Yrigoyen y Buenos Aires</string>
+    <string name="teleresto22">+549-(364)-4622603</string>
+    <string name="tituresto24">Cullen Harrison Beer</string>
+    <string name="direresto24">Av. Hipólito Yrigoyen 25</string>
+    <string name="tituresto25">Rojo Resto Bar Club</string>
+    <string name="direresto25">Mariano Moreno 572</string>
+    <string name="teleresto23">+549-(364)-4622603</string>
+    <string name="tituresto26">Bless</string>
+    <string name="direresto26">Laprida 480</string>
+    <string name="teleresto24">+549-(364)-4587118</string>
+    <string name="tituresto27">La Taberna</string>
+    <string name="direresto27">San Martín 1083</string>
+    <string name="teleresto25">+549-(364)-4414917</string>
+
+    <string name="agencias">Agencias de Viajes</string>
+    <string name="comida">Restaurantes</string>
+    <string name="fuenteiconos">Iconos Climáticos de Weezle Weather Icons</string>
+    <string name="lugarvisita">Lugares para Visitar</string>
+
+    <string name="cajero1">Cajero Link (Nuevo Banco del Chaco S.A.) 1</string>
+    <string name="direcaje1">Av. los Españoles 1695</string>
+    <string name="cajero2">Cajero Banelco (Banco Patagonia)</string>
+    <string name="direcaje2">San Martin 468</string>
+    <string name="cajero3">Cajero Link (Nuevo Banco del Chaco S.A.) 2</string>
+    <string name="direcaje3">Pellegrini 439</string>
+    <string name="cajero4">Cajero Link (Cabal)</string>
+    <string name="direcaje4">25 de Mayo 464</string>
+    <string name="cajero5">Cajero Banelco (Banco BBVA Francés)</string>
+    <string name="direcaje5">San Martin 663</string>
+    <string name="cajero6">Cajero Link (Nuevo Banco del Chaco S.A.) 3</string>
+    <string name="direcaje6">Av. Malvinas Argentinas 1350</string>
+    <string name="cajero7">Cajero Link (Banco Nación)</string>
+    <string name="direcaje7">Pellegrini 499</string>
+    <string name="cajero8">Cajero Link (Nuevo Banco del Chaco S.A.) 4</string>
+    <string name="direcaje8">Av. Sarmiento 764</string>
+    <string name="cajero9">Cajero Banco Santander Rio</string>
+    <string name="direcaje9">Mariano Moreno 231</string>
+    <string name="cajero10">Cajero Link (Nuevo Banco del Chaco S.A.) 5</string>
+    <string name="direcaje10">C.Janik 155</string>
+    <string name="cajero11">Cajero Link (Nuevo Banco del Chaco S.A.) 6</string>
+    <string name="direcaje11">Juan Lavalle 509</string>
+    <string name="cajero12">Cajero Link (Nuevo Banco del Chaco S.A.) 7</string>
+    <string name="direcaje12">Gdor. Castells 550</string>
+    <string name="cajero13">Cajero Automático Banco Galicia</string>
+    <string name="direcaje13">Chacabuco 522</string>
+    <string name="remis1">Remisses Centro</string>
+    <string name="direremis1">Av. Sarmiento 513</string>
+    <string name="teleremis1">+549-(364)-4427333 / +549-(364)-4423545</string>
+    <string name="remis2">Remisses Líder</string>
+    <string name="direremis2">Cte. Fernández 480</string>
+    <string name="teleremis2">+549-(364)-4422257 / +549-(364)-4423943</string>
+    <string name="remis3">Remisses Laprida</string>
+    <string name="direremis3">Chacabuco 620</string>
+    <string name="teleremis3">+549-(364)-4428773</string>
+    <string name="remis4">Remisses Güemes</string>
+    <string name="direremis4">Güemes 419</string>
+    <string name="teleremis4">+549-(364)-4423163</string>
+    <string name="remis5">Remisses Saenz Peña</string>
+    <string name="direremis5">San Martin 1213</string>
+    <string name="teleremis5">+549-(364)-4423361</string>
+    <string name="remis6">Remisses Luz</string>
+    <string name="direremis6">Superiora Palmira 520</string>
+    <string name="teleremis6">+549-(364)-4425900 / +549-(364)-4430833</string>
+    <string name="titucajero">Cajeros</string>
+    <string name="tituremis">Remisses</string>
+    <string name="titups2">Alquiler de Auto</string>
+    <string name="descripps">Alquiler de autos por día.\nViaje con nuestras unidades por todo el país.\nContamos con GPS y sillas para niños.\nRealice alquiler para eventos especiales, viajes familiares o laborales.</string>
+    <string name="face1">facebook.com/pands.solucionessobreruedas</string>
+    <string name="face">Facebook:</string>
+    <string name="emailps">pssolucionessobreruedas@gmail.com</string>
+    <string name="teleps">+549-(364)-4590444</string>
+    <string name="direps">Alejandro Aguado N°260 Barrio San Martin</string>
+    <string name="titups1">PyS Rent a Car</string>
+
+    <string name="Fuente2">Fuente</string>
+    <string name="Fuente">Fuente:</string>
+    <string name="Fuente1" translatable="false">https://openweathermap.org/</string>
+    <string name="app_name">La Termal Desde Adentro</string>
+    <string name="titulocli">Clima</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="Condicion">Condición: </string>
+    <string name="Temperatura">Temperatura:</string>
+    <string name="Humedad">Humedad:</string>
+    <string name="humedadd">%</string>
+    <string name="Ultimosdatos">Ultimos Datos:\t</string>
+    <string name="tituloclima">Clima en Presidencia Roque Sáenz Peña</string>
+    <string name="titulo1">Aviso</string>
+    <string name="descrip2">No hay información sobre el clima en estos momentos, intente mas tarde</string>
+    <string name="descrip11">Sin conexión a internet, verifique su conexión y vuelva a intentar</string>
+    <string name="botondialogo1">Cerrar</string>
+    <string name="titulopresion">Presión: </string>
+    <string name="presion">Hpa</string>
+    <string name="extendido">Clima Extendido</string>
+    <string name="viento">Viento:</string>
+    <string name="veloviento">m/s \t</string>
+    <string name="Titulo1" translatable="false">La Termal</string>
+    <string name="Descripcion1">Informate de todo lo que te brinda la ciudad</string>
+    <string name="Titulo2">Clima</string>
+    <string name="Descripcion2">El detalle del clima actual en la ciudad</string>
+    <string name="Titulo6">Fotos</string>
+    <string name="Descripcion6">Mira fotos de la ciudad</string>
+    <string name="Titulo3">Sobre la ciudad</string>
+    <string name="Descripcion3">Conoce mas sobre la Termal</string>
+    <string name="Titulo4">Contacto</string>
+    <string name="Descripcion4">Envíanos tu duda, sugerencia o informe de errores.</string>
+    <string name="Titulo5">Acerca de</string>
+    <string name="Descripcion5">Información sobre la aplicación</string>
+    <string name="Titulo7">Hoteles</string>
+    <string name="Descripcion7">Información de hoteles</string>
+    <string name="Titulo8">Casinos</string>
+    <string name="Descripcion8">Disfruta de los casinos de la ciudad</string>
+    <string name="Titulo9">Restaurantes</string>
+    <string name="Descripcion9">Conoce nuestros sabores</string>
+    <string name="Titulo12">Lugares para visitar</string>
+    <string name="Descripcion12">Conoce el zoológico, museos, complejo termal y lugares históricos de la ciudad</string>
+    <string name="Titulo13">Alquiler de auto</string>
+    <string name="Descripcion13">Infórmate donde alquilar un auto</string>
+    <string name="Titulo14">Remisses</string>
+    <string name="Descripcion14">Agencias para solicitar Remisses</string>
+    <string name="Titulo15" translatable="false">Rapipagos y PagoFácil</string>
+    <string name="Descripcion15">Lugares donde poder pagar facturas</string>
+    <string name="Titulo16">Correos</string>
+    <string name="Descripcion16">Información de Correos de la ciudad</string>
+    <string name="Titulo17">Hospital y Clínicas</string>
+    <string name="Descripcion17">Información de Hospital y Clínicas de la ciudad</string>
+    <string name="Titulo19">Farmacias</string>
+    <string name="Descripcion19">Información de farmacias en la ciudad</string>
+    <string name="Titulo20">Cajeros</string>
+    <string name="Descripcion20">Información de cajeros en la ciudad</string>
+    <string name="Titulo21">Agencias de Viajes</string>
+    <string name="Descripcion21">Agencias de viajes que puedes encontrar en la ciudad</string>
+    <string name="Titulo22">Mapa</string>
+    <string name="Descripcion22">Localiza mejor lo que buscas observando el mapa de la ciudad</string>
+    <string name="Destinatario">Para</string>
+    <string name="micorreo">latermaldaapp@gmail.com</string>
+    <string name="Asunto">Asunto</string>
+    <string name="Mensaje">Mensaje</string>
+    <string name="Enviar">Enviar</string>
+    <string name="Atras">Anterior</string>
+    <string name="Siguiente">Siguiente</string>
+    <string name="Hot">Hoteles</string>
+    <string name="Casi">Casinos</string>
+    <string name="Hosp">Hospital y Clínicas</string>
+    <string name="direccion">Dirección:\t</string>
+    <string name="telefono">Teléfono:\t</string>
+    <string name="contacto">Contacto:\t</string>
+    <string name="como">Como Llegar:\t</string>
+    <string name="ver"><u>Ver Mapa</u></string>
+    <string name="none"></string>
+    <string name="Habita">Habitaciones</string>
+    <string name="Servis">Servicios</string>
+    <string name="farma1">Farmacia Catedral SCS</string>
+    <string name="dire1">San Martín 66</string>
+    <string name="telefono1">+549-(364)-4426060</string>
+    <string name="farma2">Farmacia del Centro</string>
+    <string name="dire2">Cte. Fernández 499</string>
+    <string name="telefono2">+549-(364)-4424466</string>
+    <string name="farma3">Farmacia Itati SRL</string>
+    <string name="dire3">San Martín 502</string>
+    <string name="telefono3">+549-(364)-4421667 / +549-(364)-4424945 / +549-(364)-4431261</string>
+    <string name="farma4">Farmacia Nueve Lunas</string>
+    <string name="dire4">Cte. Fernández 21</string>
+    <string name="telefono4">+549-(364)-4427321</string>
+    <string name="farma5">Farmacia Tranchet SRL</string>
+    <string name="dire5">San Martín 202</string>
+    <string name="telefono5">+549-(364)-4425590</string>
+    <string name="farma6">Farmacity SA</string>
+    <string name="dire6">San Martín 135</string>
+    <string name="telefono6">+549-(364)-4433319 / +549-(364)-4433320 / +549-(364)-4433321</string>
+    <string name="farma7">Farmacia Vital</string>
+    <string name="dire7">9 de Julio 5</string>
+    <string name="telefono7">+549-(364)-4431500</string>
+    <string name="hospi1">Hospital 4 de Junio R. Carrillo</string>
+    <string name="dire8">Av. Malvinas Argentinas 1350</string>
+    <string name="telefono8">+549-(364)-4420667 / +549-(364)-4424568 / +549-(364)- 4428350 / +549-(364)-4429053</string>
+    <string name="hospi2">Clínica Centro Médico SRL</string>
+    <string name="dire9">Laprida 771</string>
+    <string name="telefono9">+549-(364)-4422440</string>
+    <string name="hospi3">Clínica Sáenz Peña SRL</string>
+    <string name="dire10">M. Belgrano 155</string>
+    <string name="telefono10">+549-(364)-4421605</string>
+    <string name="hospi4">Clínica Avenida</string>
+    <string name="dire11">Av. Sarmiento 293</string>
+    <string name="telefono11">+549-(364)-4421925</string>
+    <string name="hospi5">Instituto Privado Santa María SRL</string>
+    <string name="dire12">Chacabuco 634</string>
+    <string name="telefono12">+549-(364)-4429213 / +549-(364)-4429204</string>
+    <string name="farma8">Farmacia Vedia</string>
+    <string name="dire88">San Martín 402</string>
+    <string name="telefono88">+549-(364)-4423300</string>
+    <string name="farma9">Farmacia Vedia IV</string>
+    <string name="dire99">San Martín 901</string>
+    <string name="telefono99">+549-(364)-4424700</string>
+    <string name="hospi6">Sanatorio Loma Linda SRL</string>
+    <string name="dire13">Ruta 16 y Ruta 95</string>
+    <string name="telefono13">+549-(364)-4420012 </string>
+    <string name="farma10">Farmacia AMEB</string>
+    <string name="farma11">Farmacia Polini</string>
+    <string name="direfarma11">Mariano Moreno 197</string>
+    <string name="telefarma11">+549-(364)-4421335</string>
+    <string name="dire17">San Martín 100</string>
+    <string name="telefono17">+549-(364)-4428884</string>
+
+    <string name="correo1">Correo OCA</string>
+    <string name="dire18">Rivadavia 811</string>
+    <string name="telefono18">+549-(364)-4423228</string>
+    <string name="correo2">Correo Argentino</string>
+    <string name="dire19">Belgrano 601</string>
+    <string name="telefono19">+549-(362)-4420501</string>
+
+    <string name="correo3">Correo Andreani</string>
+    <string name="dire20">Ruta 16, Km. 176,28</string>
+    <string name="telefono20">+549-(364)-4435506</string>
+
+
+    <string name="casino1">Casino Gualok</string>
+    <string name="dire15">Mariano Moreno 1180</string>
+    <string name="telefono15">+549-(364)-4430900 / +549-(364)-4430999</string>
+    <string name="casino2">Casino Gualok Sur</string>
+    <string name="dire16">Cte. Fernández 78</string>
+    <string name="telefono16">+546-(362)-44687768</string>
+    <string name="casino3">Casino Platinum</string>
+    <string name="dire21">Av. J. M. Rosas y Tomás Edison</string>
+    <string name="telefono21">+546-(364)-4123456</string>
+    <string name="des1">Reseña</string>
+    <string name="des2">Números de Emergencias</string>
+    <string name="des3">Haz Click en los números resaltados en rojo para llamar</string>
+    <string name="des4">Como Llegar</string>
+    <string name="des5">Datos Utiles</string>
+    <string name="des6">Que ver</string>
+    <string name="botondialogo">Cerrar</string>
+    <string name="siguenos">Síguenos en Facebook</string>
+    <string name="descrip1">La Termal Desde Adentro es una aplicación para dispositivos con sistema Android.\nBrinda información de todo lo que debe saber el turista que visite la ciudad de Pcia. Roque Sáenz Peña Chaco Argentina.\nAplicación creada por\nRoy Alexis Genoff.\nVersión 2.2.\nMap Icons de mapicons.nicolasmollet.com</string>
+    <string name="descrip3">Moneda: Pesos Argentinos\n\nIdioma: Español\n\nZona Horaria: GMT-3\n\nPesos y Medidas: Sistema Internacional de Unidades\n\nClima: La temperatura media anual es de 21.5ºC y la humedad relativa promedio anual es del 74%. Suelen registrase en invierno temperaturas mínimas de por debajo -5 °C, y máximas en verano que superan los 44 ºC\n\nLa terminal de ómnibus se encuentra ubicada en\n <a href="https://goo.gl/maps/pwK4s">Ver Mapa</a>\n\nPara informes turísticos llamar a los siguientes números:\n<a href="tel:+549-(364)-4431550">Teléfono 1</a>\n\nPara mas info sobre la ciudad visite:\n<a href="https://saenzpena.gob.ar/">MunicipioSP</a></string>
+    <string name="descrip4">Aeropuerto de la ciudad.\n<a href="https://goo.gl/maps/JgM3AZVXHpC2">Ver Mapa</a>\n\nEdificio Histórico del Radio Telégrafo.\n<a href="https://goo.gl/maps/MDZBbzNb6j52">Ver Mapa</a>\n\nEstadio Arena Uncaus.\n<a href="https://goo.gl/maps/NtShwagfh1m">Ver Mapa</a>\n\nMural de la Ciudad.\n<a href="https://goo.gl/maps/w1Jpyr3CAAn">Ver Mapa</a>\n\nEstación de Tren.\n<a href="https://goo.gl/maps/UB7PZ6aaMLQ2">Ver Mapa</a></string>
+    <string name="descripcolelatermal">Salidas Diarias\n\nSáenz Peña - Resistencia: 5hs., 6hs., 12hs., 15hs., 20hs. y 22:30hs.\n\nSáenz Peña - Miraflores: 8:30hs., 12:15hs., 17:30hs. y 20hs.\n\nSáenz Peña - R. Bermejito: 8:30hs. y 15:30hs.\n\nTeléfonos de la empresa:\n<a href="tel:+549-(364)-4424706">Boletería</a>\n\n<a href="tel:+549-(364)-4427666">Empresa</a></string>
+    <string name="colelatermal">La Termal</string>
+    <string name="descripcolelaestrella">Salidas Diarias\n\nSáenz Peña - Resistencia: 8hs., 9hs., 17hs. y 18hs.\n\nTeléfonos de la Empresa:\n<a href="tel:+549-(364)-4425414">Boletería</a>\n\n<a href="tel:+549-(362)-4423695">Empresa</a></string>
+    <string name="colelaestrella">La Estrella</string>
+    <string name="descripcoleexpresoplata">Servicios\n\nSáenz Peña, La Mascota, Napenay, Avia Terai, Bermejo, Pampa del Infierno, Frentones, Rio Muerto: 7hs. y 19hs.\n\nSáenz Peña, La Mascota, Napenay, Avia Terai, Campo Largo, Corzuela, Las Breñas, Charata, Pinedo, Capdevilla, Gancedo: 10hs. y 20hs.\n\nSáenz Peña, La Mascota, Napenay, Avia Terai, Campo Largo, Corzuela, Las Breñas, Charata, Pinedo, Itin, Hermoso Campo, Venado Grande, Chorotis: 16hs.\n\nTeléfonos de la Empresa:\n<a href="tel:+549-(364)-4431734">Teléfono 1\n\n<a href="tel:+549-(3731)-401757">Teléfono 2</a></a></string>
+    <string name="coleexpresodelplata">Expreso del Plata</string>
+    <string name="descripcoleandesmar">Salidas Diarias\n\nDesde Sáenz Peña hacia Corrientes, Posadas, Jardín America, El Dorado y Puerto Iguazú 20:10hs.\n\nDesde Sáenz Peña hacia Santiago del Estero, Tucumán, San Juan, La Rioja, Catamarca y Mendoza 10:05hs.\n\nTeléfonos de la empresa:\n<a href="tel:+549-(364)-4428848">Boletería</a>\n\nWeb:\n<a href="http://www.andesmar.com/">Andesmar</a></string>
+    <string name="coleandesmar">Andesmar</string>
+    <string name="descripcolerapidotata">Salidas Diarias desde Sáenz Peña hacia Retiro - Buenos Aires (Capital Federal)\n14:15hs., 16:30hs., 17:00hs., 17:30hs., 18:30hs. y 20:00hs.\n\nTeléfono de la empresa:\n<a href="tel:+549-(364)-4427935">Boletería</a>\n\nWeb:\n<a href="http://www.rapidotata.com.ar/">Rápido Tata</a></string>
+    <string name="colerapidotata">Rapido Tata</string>
+    <string name="descripcoleelpulqui">Destinos:\n\nRetiro, Rosario, Santa Fé, Tostado, Córdoba, Mar del Plata, Asunción\n\nWeb:\n<a href="http://www.elpulquisrl.com.ar/">El Pulqui</a></string>
+    <string name="coleelpulqui">El Pulqui</string>
+    <string name="descripcoleaguila">Destinos:\n\nRetiro, Liniers, La Noria, Burzaco, Rosario, Santa Fé, Cce. Varela, Merlo, Morón, El Motivo.\n\nTeléfono de la empresa:\n<a href="tel:+549-(364)-4423547">Boletería</a></string>
+    <string name="coleaguila">Aguila Dorada Bis</string>
+    <string name="descripcoleflechabus">Destinos:\n\nRetiro, Rosario, Santa Fé, Posadas, Pto. Iguazú, Salta, Santiago del Estero, Córdoba, Gral. Güemes, Tucumán, Catamarca, San Juan, La Rioja, Mendoza.\n\nWeb:\n<a href="http://www.flechabus.com.ar/">Flecha Bus</a></string>
+    <string name="coleflechabus">Flecha Bus</string>
+    <string name="infotitu1">Números de Emergencias</string>
+    <string name="info1">Policia</string>
+    <string name="info2">Bomberos</string>
+    <string name="info3">Defensa Civil</string>
+    <string name="info4">Emergencia Hospital</string>
+    <string name="info5">Emergencia Ambiental</string>
+    <string name="infotel1">911</string>
+    <string name="infotel2">100</string>
+    <string name="infotel3">103</string>
+    <string name="infotel4">107</string>
+    <string name="infotel5">105</string>
+    <string name="asunto">Asunto</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="reservas">Reservas:</string>
+    <string name="titubus">Transporte de Pasajeros</string>
+    <string name="subtitubus">Información de transportes de larga distancia</string>
+    <string name="cargarnoticias">Cargar Noticias</string>
+    <string name="cargarwebspnoticias">Cargar Web</string>
+    <string name="spnoticiasweb">www.primerochaco.com</string>
+    <string name="diarionorte">www.datachaco.com</string>
+    <string name="diarioprimera">www.diarioprimeralinea.com.ar</string>
+    <string name="diariolaregion">www.eldiariodelaregion.com.ar</string>
+    <string name="noticias">Noticias</string>
+    <string name="noticias1">Noticias locales, nacionales e internacionales</string>
+    <string name="tituloboliches">Locales Bailables / Pubs / Bares</string>
+    <string name="bares">Pubs y Bares</string>
+    <string name="baile">Locales Bailables</string>
+    <string name="subtituboliches">Información sobre locales bailables, bares y pubs de la ciudad</string>
+    <string name="Face">Facebook:\t</string>
+    <string name="redondito">º</string>
+    <string name="centigrados">ºC</string>
+    <string name="lluvia">Lluvia Débil</string>
+
+    <string name="HotelGualok">Hotel Gualok</string>
+    <string name="title_activity_menu_principal">MenuPrincipal</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+
+</resources>
+

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.roycho.latermaldadentro.MenuPrincipal">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/CollapsingToolbar"
+            android:layout_height="180dp"
+            android:layout_width="match_parent"
+            app:layout_scrollFlags = "scroll|enterAlways|enterAlwaysCollapsed"
+            app:contentScrim="@color/colorPrimary"
+            app:expandedTitleTextAppearance="?android:attr/textAppearanceLarge"
+            app:expandedTitleMarginBottom="30dp"
+            app:expandedTitleMarginStart="4dp"
+            app:expandedTitleMarginEnd="150dp"
+            android:background="@drawable/cuatro"
+            app:title="@string/des2">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarid"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:layout_collapseMode="pin"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="end"
+                android:background="@drawable/emergencianum"
+                android:layout_marginTop="40sp">
+
+            </ImageView>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        
+        <TextView
+            android:id="@+id/informacion1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info1"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+         
+        <TableRow
+        android:id="@+id/fila1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tele1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+         <TextView
+             android:id="@+id/tele2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:linksClickable="true"
+             android:text="@string/infotel1"
+             android:textColor="#FF0000"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:paddingBottom="15dp"
+             android:textStyle="bold"/>
+         </TableRow>
+         
+        <View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#404991"
+			android:paddingBottom="15dp"/>
+         
+
+        <TextView
+            android:id="@+id/informacion2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info2"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+         
+        <TableRow
+        android:id="@+id/fila2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tele3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+         <TextView
+             android:id="@+id/tele4"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:linksClickable="true"
+             android:text="@string/infotel2"
+             android:textColor="#FF0000"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:paddingBottom="15dp"
+             android:textStyle="bold"/>
+         </TableRow>
+         
+        <View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#404991"
+			android:paddingBottom="15dp"/>
+         
+
+        <TextView
+            android:id="@+id/informacion3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info3"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+         
+        <TableRow
+        android:id="@+id/fila4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tele5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+         <TextView
+             android:id="@+id/tele6"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:linksClickable="true"
+             android:text="@string/infotel3"
+             android:textColor="#FF0000"
+             android:paddingBottom="15dp"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textStyle="bold"/>
+         </TableRow>
+         
+        <View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#404991"
+			android:paddingBottom="15dp"/>
+         
+
+        <TextView
+            android:id="@+id/informacion4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info4"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+         
+        <TableRow
+        android:id="@+id/fila5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tele7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+         <TextView
+             android:id="@+id/tele8"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:linksClickable="true"
+             android:text="@string/infotel4"
+             android:textColor="#FF0000"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:paddingBottom="15dp"
+             android:textStyle="bold"/>
+         </TableRow>
+         
+        <View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#404991"
+			android:paddingBottom="15dp"/>
+         
+
+        <TextView
+            android:id="@+id/informacion5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info5"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+         
+        <TableRow
+        android:id="@+id/fila6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tele9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+         <TextView
+             android:id="@+id/tele10"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:linksClickable="true"
+             android:text="@string/infotel5"
+             android:textColor="#FF0000"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textStyle="bold"/>
+         </TableRow>
+        
+         
+             
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

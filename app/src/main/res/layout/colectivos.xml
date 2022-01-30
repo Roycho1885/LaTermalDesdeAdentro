@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/colectivofondo">
+
+
+
+          <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="30dp">
+
+
+                <Button
+                    android:id="@+id/imageButton1"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/botones"
+                    android:textColor="#003399"
+                    android:textStyle="bold"
+                    android:onClick="lanzar"
+                    android:text='@string/colelatermal' />
+
+             <Button
+                 android:id="@+id/imageButton2"
+                 android:layout_width="200dp"
+                 android:layout_height="match_parent"
+                 android:layout_gravity="center"
+                 android:layout_margin="20dp"
+                 android:background="@drawable/botones"
+                 android:textColor="#003399"
+                 android:textStyle="bold"
+                 android:text='@string/colelaestrella'
+                 android:onClick="lanzar1"/>
+
+              <Button
+                 android:id="@+id/imageButton3"
+                  android:layout_width="200dp"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="center"
+                  android:layout_margin="20dp"
+                  android:background="@drawable/botones"
+                  android:textColor="#003399"
+                  android:textStyle="bold"
+                  android:text='@string/coleexpresodelplata'
+                 android:onClick="lanzar2" />
+
+               <Button
+                 android:id="@+id/imageButton4"
+                   android:layout_width="200dp"
+                   android:layout_height="match_parent"
+                   android:layout_gravity="center"
+                   android:layout_margin="20dp"
+                   android:background="@drawable/botones"
+                   android:textColor="#003399"
+                   android:textStyle="bold"
+                   android:text='@string/coleandesmar'
+                 android:onClick="lanzar3" />
+
+                    <Button
+                     android:id="@+id/imageButton5"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/botones"
+                        android:textColor="#003399"
+                        android:textStyle="bold"
+                     android:text='@string/coleaguila'
+                     android:onClick="lanzar6" />
+
+                    <Button
+                     android:id="@+id/imageButton6"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/botones"
+                        android:textColor="#003399"
+                        android:textStyle="bold"
+                     android:text='@string/coleelpulqui'
+                     android:onClick="lanzar5" />
+
+                    <Button
+                     android:id="@+id/imageButton7"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/botones"
+                        android:textColor="#003399"
+                        android:textStyle="bold"
+                     android:text='@string/coleflechabus'
+                     android:onClick="lanzar7" />
+
+                    <Button
+                     android:id="@+id/imageButton8"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/botones"
+                        android:textColor="#003399"
+                        android:textStyle="bold"
+                     android:text='@string/colerapidotata'
+                     android:onClick="lanzar4" />
+
+            </LinearLayout>
+            </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="100"
+            android:gravity="center"
+            android:background="#d3d3d3"
+            android:spinnerMode="dropdown" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="#d3d3d3"
+            android:layout_weight="1"
+            android:src="@drawable/ic_keyboard_arrow_down_black_24dp" />
+
+    </LinearLayout>
+    
+    <ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+      <TextView
+      android:id="@+id/titulo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:gravity="center"
+      android:layout_gravity="center"/>
+    
+     <HorizontalScrollView
+     android:id="@+id/scrollView1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="50dp">
+        
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal" >
+       
+         <ImageView
+            android:id="@+id/imagen1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+    		android:scaleType="fitXY" 
+            android:contentDescription="@string/none"/>
+
+        <ImageView
+            android:id="@+id/imagen2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+    		android:scaleType="fitXY"
+            android:contentDescription="@string/none"/>
+
+        <ImageView
+            android:id="@+id/imagen3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+  			android:scaleType="fitXY" 
+            android:contentDescription="@string/none"/>
+
+        <ImageView
+            android:id="@+id/imagen4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+    		android:scaleType="fitXY" 
+            android:contentDescription="@string/none"/>
+
+        <ImageView
+            android:id="@+id/imagen5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+    		android:scaleType="fitXY" 
+            android:contentDescription="@string/none"/>
+       
+    </LinearLayout>
+    </HorizontalScrollView>
+    
+    <TextView
+      android:id="@+id/descripcion"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:gravity="center"
+      android:textStyle="italic" />
+    
+    <TextView
+        android:id="@+id/descripcion1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold" />
+    
+    <TextView
+      android:id="@+id/descripcion2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:textStyle="italic" />
+    
+    <TextView
+      android:id="@+id/descripcion3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:textStyle="bold" />
+    
+    <TextView
+      android:id="@+id/descripcion4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:textStyle="italic"/>
+    
+    <TextView
+         android:id="@+id/descripcion6"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:autoLink="all"
+         android:textAppearance="?android:attr/textAppearanceSmall"
+         android:textStyle="bold" />
+    
+     <TextView
+         android:id="@+id/descripcion5"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:autoLink="all"
+         android:textAppearance="?android:attr/textAppearanceSmall"
+         android:textStyle="bold" />
+    
+    <TableRow
+        android:id="@+id/fila4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/como1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC" />
+
+    </TableRow>
+
+    
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

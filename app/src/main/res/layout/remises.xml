@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.roycho.latermaldadentro.MenuPrincipal">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/CollapsingToolbar"
+            android:layout_height="180dp"
+            android:layout_width="match_parent"
+            app:layout_scrollFlags = "scroll|enterAlways|enterAlwaysCollapsed"
+            app:contentScrim="@color/colorPrimary"
+            app:expandedTitleTextAppearance="?android:attr/textAppearanceLarge"
+            app:expandedTitleMarginBottom="30dp"
+            app:expandedTitleMarginStart="4dp"
+            app:expandedTitleMarginEnd="150dp"
+            android:background="@drawable/cuatro"
+            app:title="@string/tituremis">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarid"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:layout_collapseMode="pin"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="end"
+                android:background="@drawable/remiss"
+                android:layout_marginTop="40sp">
+
+            </ImageView>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/taxi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remis4"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TableRow
+        android:id="@+id/fila1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/direccion1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direccion" />
+        
+         <TextView
+            android:id="@+id/direccion2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direremis4" />
+         </TableRow>
+         
+        <TableRow
+        android:id="@+id/fila2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tele1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono" />
+        
+         <TextView
+            android:id="@+id/tele2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/teleremis4"
+            android:linksClickable="true"
+            android:autoLink="all" />
+         </TableRow>
+         
+        <TableRow
+        android:id="@+id/fila3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+         </TableRow>
+
+        <TableRow
+        android:id="@+id/fila4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/como1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:paddingBottom="15dp"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+
+    </TableRow>
+    
+         <View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+             android:background="#404991"
+			android:paddingBottom="15dp"/>
+<TextView
+            android:id="@+id/taxi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remis5"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TableRow
+        android:id="@+id/fila5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/direccion3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direccion" />
+        
+         <TextView
+            android:id="@+id/direccion4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direremis5" />
+         </TableRow>
+         
+        <TableRow
+        android:id="@+id/fila6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tele3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono" />
+        
+         <TextView
+            android:id="@+id/tele4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/teleremis5"
+            android:linksClickable="true"
+            android:autoLink="all" />
+         </TableRow>
+         
+        <TableRow
+        android:id="@+id/fila7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+         </TableRow>
+
+        <TableRow
+        android:id="@+id/fila8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/como3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:paddingBottom="15dp"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+
+    </TableRow>
+    
+<View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+            android:background="#404991"
+			android:paddingBottom="15dp"/>
+<TextView
+            android:id="@+id/taxi3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remis3"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TableRow
+        android:id="@+id/fila9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/direccion5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direccion" />
+        
+         <TextView
+            android:id="@+id/direccion6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direremis3" />
+         </TableRow>
+         
+        <TableRow
+        android:id="@+id/fila10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tele5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono" />
+        
+         <TextView
+            android:id="@+id/tele6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/teleremis3"
+            android:linksClickable="true"
+            android:autoLink="all" />
+         </TableRow>
+         
+        <TableRow
+        android:id="@+id/fila11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+         </TableRow>
+
+        <TableRow
+        android:id="@+id/fila12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/como5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:paddingBottom="15dp"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+
+    </TableRow>
+    
+    <View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+            android:background="#404991"
+			android:paddingBottom="15dp"/>
+<TextView
+            android:id="@+id/taxi4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remis1"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TableRow
+        android:id="@+id/fila13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/direccion7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direccion" />
+        
+         <TextView
+            android:id="@+id/direccion8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direremis1" />
+         </TableRow>
+         
+        <TableRow
+        android:id="@+id/fila14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tele7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono" />
+        
+         <TextView
+            android:id="@+id/tele8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/teleremis1"
+            android:linksClickable="true"
+            android:autoLink="all" />
+         </TableRow>
+         
+        <TableRow
+        android:id="@+id/fila15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+         </TableRow>
+
+        <TableRow
+        android:id="@+id/fila16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/como7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:paddingBottom="15dp"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+
+    </TableRow>
+    
+        <View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+            android:background="#404991"
+			android:paddingBottom="15dp"/>
+<TextView
+            android:id="@+id/taxi5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remis2"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        
+        <TableRow
+        android:id="@+id/fila17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/direccion9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direccion" />
+        
+         <TextView
+            android:id="@+id/direccion10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direremis2" />
+         </TableRow>
+         
+        <TableRow
+        android:id="@+id/fila18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tele9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono" />
+        
+         <TextView
+            android:id="@+id/tele10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/teleremis2"
+            android:linksClickable="true"
+            android:autoLink="all" />
+         </TableRow>
+         
+        <TableRow
+        android:id="@+id/fila19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+         </TableRow>
+
+        <TableRow
+        android:id="@+id/fila20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/como9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:paddingBottom="15dp"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+
+    </TableRow>
+    
+             <View
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:background="#404991"
+			android:paddingBottom="15dp"/>
+<TextView
+            android:id="@+id/taxi6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remis6"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TableRow
+        android:id="@+id/fila21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/direccion11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direccion" />
+        
+         <TextView
+            android:id="@+id/direccion12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direremis6" />
+         </TableRow>
+         
+        <TableRow
+        android:id="@+id/fila22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tele11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono" />
+        
+         <TextView
+            android:id="@+id/tele12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/teleremis6"
+            android:linksClickable="true"
+            android:autoLink="all" />
+         </TableRow>
+         
+        <TableRow
+        android:id="@+id/fila23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+         </TableRow>
+
+        <TableRow
+        android:id="@+id/fila24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/como11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/como12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00CCCC"
+            android:paddingBottom="15dp"
+            android:linksClickable="true"
+            android:autoLink="all"/>
+
+    </TableRow>
+           
+     </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
