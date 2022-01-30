@@ -3,3 +3,8 @@
 /app/build/
 /app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/
 /build/
+/app/build.gradle
+/app/src/debug
+/app/src/release
+/app/src/main/AndroidManifest.xml
+/app/src/main/java/com/roycho/latermaldadentro/Climaa.java
